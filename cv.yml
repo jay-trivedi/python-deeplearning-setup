@@ -1,0 +1,19 @@
+name: cv
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python==3.6
+    - numpy
+    - matplotlib
+    - jupyter
+    - opencv3
+    - pillow
+    - scikit-learn
+    - scipy
+    - h5py
+    - tensorflow-gpu
+    - seaborn
+    - pandas
+    - pip:
+        - git+https://github.com/fchollet/keras.git
