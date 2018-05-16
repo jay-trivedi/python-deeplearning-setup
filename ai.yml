@@ -14,3 +14,5 @@ dependencies:
     - psycopg2
     - pickle
     - sqlalchemy
+    - pip:
+        - apache-airflow==1.8.1
