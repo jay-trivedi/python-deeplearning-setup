@@ -13,7 +13,5 @@ dependencies:
     - pandas
     - psycopg2
     - sqlalchemy
-    - flask_bcrypt
-    - password
     - pip:
         - apache-airflow==1.8.1
