@@ -1,0 +1,10 @@
+name: cv
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python==3.6
+    - numpy==1.14.5
+    - tensorflow-gpu==1.8.0
+    - torch==0.4.0
+    - torchvision==0.2.1
