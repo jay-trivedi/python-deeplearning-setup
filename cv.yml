@@ -7,7 +7,6 @@ dependencies:
     - numpy
     - matplotlib
     - jupyter
-    - opencv3
     - pillow
     - scikit-learn
     - scipy
@@ -17,3 +16,9 @@ dependencies:
     - pandas
     - pip:
         - git+https://github.com/fchollet/keras.git
+        - torch
+        - scikit-image
+        - opencv-python
+        - dlib
+        - Pillow-SIMD
+        - torchvision
