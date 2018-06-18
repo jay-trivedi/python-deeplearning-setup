@@ -1,0 +1,13 @@
+name: flask
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python==3.6
+    - pip:
+        - Werkzeug==0.14.1
+        - Jinja2==2.8.1
+        - MarkupSafe==1.0
+        - itsdangerous==0.24
+        - click==6.7
+        - virtualenv==16.0.0
