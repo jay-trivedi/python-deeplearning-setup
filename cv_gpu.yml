@@ -1,6 +1,5 @@
 name: cv_gpu
 channels:
-    - https://conda.anaconda.org/menpo
     - conda-forge
 dependencies:
     - python==3.6
